@@ -1,7 +1,6 @@
 import os
 import sys
 
-
 try:
     from colorama import init, AnsiToWin32, Fore, Back, Style
     init(wrap=False)
