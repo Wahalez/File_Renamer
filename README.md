@@ -14,3 +14,6 @@ Example :
 > python main.py ./folder file_ 1
 
 This will rename all the files whithin the "folder" folder to file_1 , file_2 , etc.
+
+TESTED ON :
+> Windows 7
