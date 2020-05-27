@@ -54,8 +54,8 @@ if __name__ == '__main__':
             except FileExistsError:
                 print(Fore.RED + Style.BRIGHT + "Couldn't rename file : " + file + " - File already exists", file=stream)
             start_index += 1
-            
+        print("\nDONE")
     else:
-        print('exits')
+        print(Fore.RED + Style.BRIGHT + 'exits', file=stream)
         exit(0) #User did not accept to process the files
     
