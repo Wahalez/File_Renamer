@@ -15,7 +15,6 @@ def reset_style():
     print(Style.RESET_ALL, file=stream)
 
 
-
 if __name__ == '__main__':
     if len(sys.argv) < 4:
         print(Fore.RED + Style.BRIGHT + "Usage: main.py <folder_path> <new_name> <start_index>", file=stream)
