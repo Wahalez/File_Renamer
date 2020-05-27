@@ -15,5 +15,5 @@ Example :
 
 This will rename all the files whithin the "folder" folder to file_1 , file_2 , etc.
 
-TESTED ON :
+Tested on :
 > Windows 7
